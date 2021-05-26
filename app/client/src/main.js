@@ -48,7 +48,7 @@ axios
 
 // App Configuration
 // eslint-disable-next-line no-undef
-fetch('https://s3.us-east-2.amazonaws.com/thetimetoact/assets/prod/settings/app-conf.json')
+fetch('.static/app-conf.json')
   .then(function(response) {
     if (response.status !== 200) {
       console.log(
