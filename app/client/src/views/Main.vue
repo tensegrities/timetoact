@@ -38,7 +38,7 @@
             color="gray"
             class="ml-0"
             @click="openWebsite()"
-            ><v-icon medium>fas fa-question</v-icon></v-btn
+            ><v-icon medium>fas fa-home</v-icon></v-btn
           > </template
         ><span>Open Website</span>
       </v-tooltip>
